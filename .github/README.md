@@ -40,9 +40,10 @@ Next, you'll want to modify the repository README to match your package name, de
 Note that you should be modifying the `README.md` file at the _root_ of the repository and not _this_ file.
 Once that's done, you can delete this file which will make the repository README the default.
 
-Finally, you can commit and push with the following commands:
+Finally, you can add everything to Git and amend the default initial commit created by the template:
 
 ```sh
 git add .
-git commit -m "chore: Initial commit"
+git commit --amend -m "chore: Initial commit"
+git push -f
 ```
