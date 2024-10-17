@@ -27,4 +27,10 @@ Finally, you can spin up `goreleaser` with:
 make release
 ```
 
+> **N.B.:** If you see an error about a missing GitHub token, you will need to create a `.env` file containing a token e.g.:
+> ```
+> set -a
+> GITHUB_TOKEN=<YOUR-TOKEN-HERE>
+> ```
+
 [^1]: https://goreleaser.com/
