@@ -46,9 +46,3 @@ Finally, you can commit and push with the following commands:
 git add .
 git commit -m "chore: Initial commit"
 ```
-
-```sh
-$ git tag -a v0.0.1 -m "v0.0.1"
-$ git push --follow-tags
-$ make release
-```
